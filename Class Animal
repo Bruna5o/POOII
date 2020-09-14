@@ -1,0 +1,24 @@
+package Aulapoo2
+
+  Public class Animal{
+      
+      private string raca;
+      private string nome;
+      
+  }
+  
+  public String getraca(){
+      return raca;
+  }
+  
+   public void setraca(String raca){
+      this.raca = raca;
+  }
+  
+    public String getnome(){
+      return nome;
+  }
+  
+    public void setnome(String nome){
+      this.nome = nome;
+  }
