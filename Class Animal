@@ -22,3 +22,12 @@ package Aulapoo2
     public void setnome(String nome){
       this.nome = nome;
   }
+
+
+public class Passaro extends Animal{
+
+}
+
+public class Cavalo extends Animal{
+
+}
