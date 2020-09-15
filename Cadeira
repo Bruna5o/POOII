@@ -57,10 +57,13 @@ Package AulaPOO2
       
       }
       
-      public void inclinar(double inclinacao){
+      public void inclinar(double graus){
       
       }
+ 
+      public void massagear(){
       
+      }
       
     }
     
