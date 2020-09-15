@@ -48,6 +48,20 @@ Package AulaPOO2
           this.modelo = modelo;
       }
       
+      public Cadeira(double tamanho, double peso, String cor, String marca, String modelo){
+            this.cor = cor;
+            this.tamanho = tamanho;
+            this.peso = peso;
+            this.marca = marca;
+            this.modelo = modelo;
+      
+      }
+      
+      public void inclinar(double inclinacao){
+      
+      }
+      
+      
     }
     
     
