@@ -68,3 +68,16 @@ Package AulaPOO2
     }
     
     
+    CLASSE CADEIRA DE PRAIA
+    
+    Public Class CadeiradePraia{
+    
+    
+    public CadeiradePraia(double tamanho, double peso, String cor)
+    
+    
+    
+    }
+    
+    
+    
