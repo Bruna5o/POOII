@@ -1,0 +1,53 @@
+Package AulaPOO2
+
+    Public Class Cadeira{
+    
+      public double tamanho;
+      public double peso;
+      public String cor;
+      private String marca;
+      private String modelo;
+      
+      public double getTamanho{
+          return tamanho;
+      }
+      
+      public void setTamanho(double tamanho){
+          this.tamanho = tamanho;
+      }
+      
+      public double getPeso{
+          return peso;
+      }
+      
+      public void setPeso(double peso){
+          this.peso = peso;
+      }
+    
+      public double getCor{
+          return cor;
+      }
+      
+      public void setCor(double cor){
+          this.cor = cor;
+      }
+      
+      public double getMarca{
+          return marca;
+      }
+      
+      public void setMarca(double marca){
+          this.marca = marca;
+      }      
+      
+      public double getModelo{
+          return modelo;
+      }
+      
+      public void setModelo(double modelo){
+          this.modelo = modelo;
+      }
+      
+    }
+    
+    
