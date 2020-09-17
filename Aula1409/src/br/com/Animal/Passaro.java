@@ -18,7 +18,7 @@ public class Passaro extends Animal{
 	}
 	
 	public String voa() {
-		return "eu vôo";
+		return "eu vÃ´o";
 	}
 	
 	public String botaOvo() {
@@ -39,11 +39,11 @@ public class Passaro extends Animal{
 
 	@Override
 	public String toString() {
-		return "Eu sou o " + getnome() + " da raça " + getraca() + ". " + comer() + 
+		return "Eu sou o " + getnome() + " da raÃ§a " + getraca() + ". " + comer() + 
 				" e " + dormir() + "." + " Como sou um passaro " + voa() + " e " + botaOvo() + ", por exemplo, nesta semana botei " + ovoquant + ".";
 	}
 	
-	
+	 
 	
 
 }
