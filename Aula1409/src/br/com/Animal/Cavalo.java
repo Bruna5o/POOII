@@ -1,6 +1,6 @@
 package br.com.Animal;
 
-public class Cavalo extends Animal{
+public class Cavalo extends Animal{ 
 	
 	private String ferradura;
 	
@@ -36,7 +36,7 @@ public class Cavalo extends Animal{
 
 	@Override
 	public String toString() {
-		return "Eu sou o " + getnome() + " da raça " + getraca() + ". " + comer() + 
+		return "Eu sou o " + getnome() + " da raÃ§a " + getraca() + ". " + comer() + 
 				" e " + dormir() + "." + " Sou um cavalo muito chique pois uso ferraduras da " + ferradura + ".";
 	}
 

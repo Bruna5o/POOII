@@ -31,7 +31,7 @@ public class Animal {
 	
 	public String comer() {
 		return "Eu como";
-	}
+	} 
 	
 	public String dormir() {
 		return "eu durmo";
@@ -43,14 +43,14 @@ public class Animal {
 
 	@Override
 	public String toString() {
-		return "Eu sou a "+ nome +". Sou uma cadela da raÁa " + raca;
+		return "Eu sou a "+ nome +". Sou uma cadela da ra√ßa " + raca;
 	}
 	
 	public static void main(String[] args) {
 		
 		Animal anim = new Animal("Lessy", "Akita");
 		Cavalo horse = new Cavalo("Ronaldo", "Bolinhas", "ferrari");
-		Passaro bird = new Passaro("ZÈ", " Can·rio", 4);
+		Passaro bird = new Passaro("Z√©", " Can√°rio", 4);
 		
 		System.out.println(anim.toString());
 		System.out.println(horse.toString());
