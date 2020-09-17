@@ -4,7 +4,7 @@ public class Banco extends Cadeira{
 
 	private String local;
 	
-	public String getLocal() {
+	public String getLocal() { 
 		return local;
 	}
 

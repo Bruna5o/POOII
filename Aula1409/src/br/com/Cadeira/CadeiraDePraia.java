@@ -4,7 +4,7 @@ public class CadeiraDePraia extends Cadeira{
 	
 	private String material;
 
-	public String getMaterial() {
+	public String getMaterial() { 
 		return material;
 	}
 
