@@ -23,18 +23,18 @@ public class Animal {
     this.nome = nome;
     }
     
-    public Animal (String raca, String nome) {
+    public Animal (String nome, String raca) {
     	this.raca = raca;
     	this.nome = nome;
     }
 	
 	
 	public String comer() {
-		return "animal comendo";
+		return "Eu como";
 	}
 	
 	public String dormir() {
-		return "animal dormindo";
+		return "eu durmo";
 	}
 	
 	public String fazerbarulho() {
@@ -43,9 +43,20 @@ public class Animal {
 
 	@Override
 	public String toString() {
-		return "Animal [Raça=" + raca + ", Nome=" + nome + "]";
+		return "Eu sou a "+ nome +". Sou uma cadela da raça " + raca;
 	}
 	
-	
+	public static void main(String[] args) {
+		
+		Animal anim = new Animal("Lessy", "Akita");
+		Cavalo horse = new Cavalo("Ronaldo", "Bolinhas", "ferrari");
+		Passaro bird = new Passaro("Zé", " Canário", 4);
+		
+		System.out.println(anim.toString());
+		System.out.println(horse.toString());
+		System.out.println(bird);
+	}
 	
 }
+
+

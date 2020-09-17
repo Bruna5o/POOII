@@ -12,8 +12,8 @@ public class Cavalo extends Animal{
 		this.ferradura = ferradura;
 	}
 
-	public Cavalo(String raca, String nome, String ferradura) {
-		super(raca,nome);
+	public Cavalo(String nome, String raca, String ferradura) {
+		super(nome,raca);
 		this.ferradura = ferradura;
 	}
 
@@ -25,13 +25,19 @@ public class Cavalo extends Animal{
 	@Override
 	public String comer() {
 		// TODO Auto-generated method stub
-		return super.comer() + "cenoura e capim.";
+		return super.comer() + " cenoura e capim";
 	}
 
 	@Override
 	public String dormir() {
 		// TODO Auto-generated method stub
-		return super.dormir() + "no estabulo.";
+		return super.dormir() + " no estabulo";
+	}
+
+	@Override
+	public String toString() {
+		return "Eu sou o " + getnome() + " da raça " + getraca() + ". " + comer() + 
+				" e " + dormir() + "." + " Sou um cavalo muito chique pois uso ferraduras da " + ferradura + ".";
 	}
 
 	
