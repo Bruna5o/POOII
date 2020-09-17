@@ -25,7 +25,7 @@ public class Animal {
     
     public Animal (String nome, String raca) {
     	this.raca = raca;
-    	this.nome = nome;
+    	this.nome = nome; 
     }
 	
 	
