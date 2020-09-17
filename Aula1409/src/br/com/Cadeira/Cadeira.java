@@ -61,7 +61,7 @@ public class Cadeira {
 
 
 
-	public Cadeira(String modelo, String marca, String cor, double peso, double tamanho) {
+	public Cadeira(double tamanho, double peso, String cor, String marca,String modelo) {
     	this.modelo = modelo;
     	this.marca = marca;//pra usar equals colocar o set
     	this.cor = cor;
@@ -69,7 +69,7 @@ public class Cadeira {
     	this.tamanho = tamanho;
     }
 	
-	
+
 
 
 	public void inclinar(double graus){
@@ -78,8 +78,18 @@ public class Cadeira {
     }
 
     public void massagear(){
-    
     	System.out.println("Massagem à dois conto");
     }
+    
+	public static void main(String[] args) {
+		
+		Cadeira cad = new Cadeira(1.03, 2.00 , "Azul", "RaizBem", "GIO320");
+		CadeiraDePraia cp = new CadeiraDePraia("Madeira", 1.30, 2.00, "Verde", "Top", "DAS123");
+		Banco ocnab = new Banco("Praça Pequena", 3.00, 4 , "Cinza", "LG","PET984");
+		
+		System.out.println(cad.toString());
+		System.out.println(cp.toString());
+		System.out.println(ocnab.toString());
+	}
 
 }

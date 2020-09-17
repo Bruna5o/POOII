@@ -12,9 +12,15 @@ public class CadeiraDePraia extends Cadeira{
 		this.material = material;
 	}
 
-	public CadeiraDePraia(String modelo, String marca, String cor, double peso, double tamanho, String material) {
-		super(modelo, marca, cor, peso, tamanho);
+	public CadeiraDePraia(String material,double tamanho, double peso, String cor, String marca,String modelo) {
+		super(tamanho, peso, cor, marca, modelo);
 		this.material = material;
+	}
+
+	@Override
+	public String toString() {
+		return "A cadeira de praia foi feita do material " + material + ", de tamanho "  + getTamanho() + " e peso " + getPeso()
+				+ ". Possui a cor " + getCor() + " e pertence a marca " + getMarca() + " modelo " + getModelo() + ".";
 	}
 	
 	
