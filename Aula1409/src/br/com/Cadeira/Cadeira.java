@@ -70,7 +70,11 @@ public class Cadeira {
     } 
 	
 
-
+@Override
+	public String toString() {
+		return "Cadeira [tamanho=" + tamanho + ", peso=" + peso + ", cor=" + cor + ", marca=" + marca + ", modelo="
+				+ modelo + "]";
+	}
 
 	public void inclinar(double graus){
 		System.out.println("O banco inclina de 90 a 45 graus");
@@ -78,14 +82,14 @@ public class Cadeira {
     }
 
     public void massagear(){
-    	System.out.println("Massagem à dois conto");
+    	System.out.println("Massagem Ã  dois conto");
     }
     
 	public static void main(String[] args) {
 		
 		Cadeira cad = new Cadeira(1.03, 2.00 , "Azul", "RaizBem", "GIO320");
 		CadeiraDePraia cp = new CadeiraDePraia("Madeira", 1.30, 2.00, "Verde", "Top", "DAS123");
-		Banco ocnab = new Banco("Praça Pequena", 3.00, 4 , "Cinza", "LG","PET984");
+		Banco ocnab = new Banco("PraÃ§a Pequena", 3.00, 4 , "Cinza", "LG","PET984");
 		
 		System.out.println(cad.toString());
 		System.out.println(cp.toString());
